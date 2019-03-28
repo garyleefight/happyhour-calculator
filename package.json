@@ -1,0 +1,26 @@
+{
+  "name": "happyhour-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --presets es2015 -d lib/ src",
+    "start": "npm run build && node lib/index.js "
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garyleefight/happyhour-calculator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/garyleefight/happyhour-calculator/issues"
+  },
+  "homepage": "https://github.com/garyleefight/happyhour-calculator#readme",
+  "dependencies": {
+    "aws-amplify": "1.1.22",
+    "babel-cli": "6.26.0",
+    "babel-preset-es2015": "6.24.1"
+  }
+}
